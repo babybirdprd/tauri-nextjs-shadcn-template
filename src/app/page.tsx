@@ -1,5 +1,5 @@
 "use client";
-import { RoundedButton } from "@/components/RoundedButton";
+import { Button } from "@/components/ui/button";
 import { invoke } from "@tauri-apps/api/core";
 import Image from "next/image";
 import { useCallback, useState } from "react";
@@ -39,7 +39,7 @@ export default function Home() {
         </ol>
 
         <div className="flex flex-col gap-2 items-start">
-          <RoundedButton
+          <Button
             onClick={greet}
             title="Call &quot;greet&quot; from Rust"
           />
