@@ -68,10 +68,8 @@ files are located in `src-tauri/`. Please consult the Next.js and Tauri document
 respectively for questions pertaining to either technology.
 
 ## Caveats
-Windows:
-```
-$env:
-```
+Windows: May need to install NASM. I had to use repair .net program to get it to build.
+
 ### Static Site Generation / Pre-rendering
 
 Next.js is a great React frontend framework which supports server-side rendering (SSR)

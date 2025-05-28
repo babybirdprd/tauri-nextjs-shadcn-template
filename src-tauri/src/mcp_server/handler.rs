@@ -1,7 +1,7 @@
 use async_trait::async_trait;
 use rust_mcp_sdk::McpServer;
 use rust_mcp_sdk::mcp_server::ServerHandler;
-use rust_mcp_sdk::schema::{InitializeError, ListToolsError, CallToolError};
+use rust_mcp_sdk::schema::schema_utils::{InitializeError, ListToolsError, CallToolError};
 use rust_mcp_sdk::schema::payloads::{ 
     CallToolResult, InitializeResult, ListToolsResult, 
     ToolInput, ToolOutput, CallToolRequestParams, InitializeRequestParams // Added missing params
