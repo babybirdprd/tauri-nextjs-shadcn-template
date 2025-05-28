@@ -68,7 +68,10 @@ files are located in `src-tauri/`. Please consult the Next.js and Tauri document
 respectively for questions pertaining to either technology.
 
 ## Caveats
-
+Windows:
+```
+$env:
+```
 ### Static Site Generation / Pre-rendering
 
 Next.js is a great React frontend framework which supports server-side rendering (SSR)
