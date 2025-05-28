@@ -1,0 +1,28 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Output directories (scraped docs)
+scraped_docs/
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup, temp, and log files
+*.log
+*.tmp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Binary outputs (if compiled manually)
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
