@@ -22,7 +22,7 @@ serde_json = "1"
 serde = { version = "1", features = ["derive"] }
 tauri = { version = "2", features = ["devtools"] }
 tauri-plugin-opener = "2"
-rust-mcp-sdk = "0.4.0"
+rust-mcp-sdk = "0.4.2"
 tokio = { version = "1", features = ["full"] }
 async-trait = "0.1"
 
